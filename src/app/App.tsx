@@ -18,8 +18,6 @@ export const App = () => {
     handleReset,
   } = useTests();
 
-  if (!tests) return <h1>NNN</h1>
-
   if (isLoading) return <Spinner/>
 
   return (
