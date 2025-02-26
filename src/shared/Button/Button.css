@@ -1,0 +1,26 @@
+.action-button {
+    width: 6rem;
+    height: 1.9rem;
+    border-radius: 0.6rem;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-overflow: ellipsis;
+    transition: all .14s ease-out;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    box-shadow: 4px 4px 0 rgb(0,0,0);
+    transform: translate(-4px, -4px);
+}
+
+.results {
+    background: rgb(46, 229, 172);
+}
+
+.finalize {
+    background: rgb(125, 125, 125);
+}

@@ -1,0 +1,104 @@
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+th, td {
+    border: none;
+}
+
+th {
+    text-align: start;
+    padding-bottom: 0.6rem;
+    color: rgb(153, 153, 153);
+    font-family: Roboto, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+thead tr th:first-child {
+    padding-left: 0.7rem;
+}
+
+thead tr th:not(:first-child) {
+    text-align: start;
+}
+
+thead tr th:first-child,
+tbody tr td:first-child {
+    width: 45%;
+}
+
+
+tbody tr td:not(:first-child) {
+    text-align: start;
+}
+
+tbody tr {
+    height: 4.4rem;
+    border-radius: 0.19rem;
+    background: rgb(255, 255, 255);
+    transition: box-shadow 0.3s ease;
+}
+
+tbody tr:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+tbody tr td:first-child {
+    position: relative;
+    padding-left: 0.7rem;
+}
+
+tbody tr td:first-child::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0.25rem;
+    background-color: var(--border-color);
+    border-radius: 3px 0 0 3px;
+}
+
+tbody tr td:last-child {
+    text-align: end;
+    padding-right: 0.8rem;
+}
+
+select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 0.9rem;
+    color: rgb(153, 153, 153);
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+
+select:focus {
+    border: none;
+    outline: none;
+}
+
+select option {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.no-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 9.4rem;
+}
+
+.warning-title {
+    color: rgb(34, 34, 34);
+    font-family: Montserrat, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}

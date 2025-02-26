@@ -1,0 +1,13 @@
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 2.3rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}

@@ -1,0 +1,12 @@
+.main-finalize {
+    display: flex;
+    flex-direction: column;
+    gap: 40rem;
+    padding: 2.3rem;
+}
+
+.finalize-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}

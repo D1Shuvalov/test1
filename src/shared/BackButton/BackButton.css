@@ -1,0 +1,16 @@
+.link {
+    display: flex;
+    gap: 1.2rem;
+    color: rgb(34, 34, 34);
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    width: 5rem;
+}
+
+.link:hover {
+    transform: scale(1.05);
+}

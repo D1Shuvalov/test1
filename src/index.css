@@ -1,0 +1,19 @@
+:root {
+    --border-color: black;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', 'Nunito', 'Roboto',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(229, 229, 229);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
